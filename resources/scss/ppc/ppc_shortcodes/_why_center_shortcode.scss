@@ -1,0 +1,152 @@
+.why_center_section {
+  margin: 0;
+  .why_center_container {
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+}
+
+.why_center_cards_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.why_center_headlines {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto 45px auto;
+}
+
+.why_center_headlines h2 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.why_center_headlines p {
+  font-weight: bolder;
+  color: #666;
+  margin: 0;
+}
+
+.why_center_card {
+  width: 48%;
+  border: 1px solid;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 250px;
+  margin-bottom: 45px;
+  padding: 25px;
+}
+
+.why_center_card h4 {
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .why_center_cards_container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  .why_center_card {
+    width: 30%;
+  }
+}
+
+.treatment_programs_container {
+  text-align: center;
+}
+
+.treatment_programs_headline_subheadlines {
+  margin-bottom: 30px;
+  padding-top: 25px;
+}
+
+.treatment_programs_headline_subheadlines h2 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.treatment_programs_headline_subheadlines h4 {
+  font-weight: 700;
+  font-size: 16px;
+  margin: 25px 0px 12.5px 0;
+}
+
+.treatment_programs_headline_subheadlines p {
+  font-size: 16px;
+}
+
+.treatment_programs_cards_container {
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.treatment_programs_card {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 250px;
+  height: auto;
+  margin-bottom: 50px;
+  align-items: center;
+  padding: 25px;
+}
+
+.treatment_programs_card p {
+  color: #666;
+  line-height: 2;
+}
+
+.treatment_programs_card_image_container {
+  border-radius: 50%;
+  padding: 25px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.treatment_programs_card_image_container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.circle_brown {
+  background-color: var(--secondary_color);
+}
+
+.circle_green {
+  background-color: var(--primary_color);
+}
+
+.treatment_programs_cards_container h3 {
+  font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  .treatment_programs_cards_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px auto;
+    flex-wrap: wrap;
+    width: 75%;
+  }
+  .treatment_programs_card {
+    width: 45%;
+  }
+}

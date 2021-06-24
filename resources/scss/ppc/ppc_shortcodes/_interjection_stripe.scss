@@ -1,0 +1,37 @@
+.interjection_stripe_section {
+  .interjection_stripe_cta_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+  }
+
+  h2 {
+    color: #fff;
+    margin: 0 0 15px 0;
+  }
+
+  h3 {
+    color: #fff;
+    margin: #fff;
+    margin: 0 0 15px 0;
+  }
+
+  a {
+    color: #fff;
+    background-color: var(--secondary_color);
+    margin: 0;
+    border: 2px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+
+    &:hover {
+      background-color: var(--tertiary_color);
+    }
+  }
+}

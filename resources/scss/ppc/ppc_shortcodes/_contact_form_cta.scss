@@ -1,0 +1,26 @@
+.contact_form_shortcode_container {
+  padding: 25px 20px;
+  background: linear-gradient(
+    90deg,
+    var(--secondary_color),
+    var(--primary_color)
+  );
+  border-radius: 10px;
+  h4 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  h4,
+  p {
+    color: #fff;
+    text-align: center;
+  }
+
+  input[type="submit"] {
+    padding: 10px 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+}

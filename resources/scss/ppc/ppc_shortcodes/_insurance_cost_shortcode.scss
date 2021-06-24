@@ -1,0 +1,87 @@
+.insurance_coverage_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.insurance_coverage_content {
+  max-width: 1250px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.insurance_coverage_image {
+  width: 100%;
+}
+
+.insurance_coverage_image h3 {
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--primary_color);
+  text-align: center;
+}
+
+.insurance_coverage_content a {
+  background-color: var(--secondary_color);
+  margin-top: 50px;
+  padding: 10px 30px;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.insurance_coverage_content a:hover {
+  color: #fff;
+  background-color: var(--tertiary_color);
+  text-decoration: underline;
+}
+
+.insurance_coverage_content p {
+  color: #666;
+  font-size: 16px;
+  line-height: 2;
+}
+
+.insurance_coverage_content h2 {
+  margin-top: 0;
+  font-size: 40px;
+  color: #000;
+}
+
+.insurance_coverage_content h3 {
+  font-size: 30px;
+}
+
+.insurance_coverage_content_h2 {
+  margin-bottom: 30px;
+}
+
+.insurance_coverage_content_cta_btn {
+  margin-top: 50px;
+}
+
+.insurance_coverage_content_cta_btn a {
+  text-shadow: 2px 2px 3px #383838;
+  box-shadow: 4px 4px 4px 0px rgba(184, 184, 184, 0.75);
+}
+
+@media (min-width: 1040px) {
+  .insurance_coverage_container {
+    flex-direction: row;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+  .insurance_coverage_content {
+    width: 60%;
+    text-align: left;
+    padding-top: 100px;
+  }
+  .insurance_coverage_image {
+    width: 35%;
+  }
+  .insurance_coverage_image img {
+    margin: 0 auto;
+  }
+}

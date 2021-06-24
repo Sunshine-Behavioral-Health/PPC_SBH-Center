@@ -1,0 +1,73 @@
+.three_steps_section {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.three_steps_section h2 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.three_steps_section h2,
+.three_steps_section h4 {
+  text-align: center;
+}
+
+.three_steps_container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  margin: 45px auto 0 auto;
+  justify-content: space-around;
+}
+
+.three_steps_single_step {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.three_steps_number {
+  font-size: 50px;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 0;
+}
+
+.number_brown {
+  background-color: var(--secondary_color);
+}
+
+.number_green {
+  background-color: var(--primary_color);
+}
+
+.three_steps_single_step h3 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.three_steps_paragraph {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+  line-height: 2;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .three_steps_container {
+    flex-direction: row;
+  }
+  .three_steps_single_step {
+    width: 30%;
+  }
+}

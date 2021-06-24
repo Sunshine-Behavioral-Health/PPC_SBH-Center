@@ -1,0 +1,94 @@
+.our_staff_shortcode_section {
+  .staff_cards_container {
+    max-width: 1250px;
+    padding: 0 15px;
+    margin: 0 auto;
+    .staff_card {
+      width: 100%;
+      margin: 0 auto;
+      background-color: var(--secondary_color);
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      max-width: 475px;
+
+      .staff_card_wrapper {
+        width: 100%;
+        border: none;
+        padding: 0;
+        min-height: auto;
+
+        img {
+          border-radius: 50%;
+          border: 5px solid #fff;
+          width: 150px;
+          height: 150px;
+        }
+        p {
+          color: #fff;
+        }
+
+        .staff_name {
+          font-size: 22px;
+          font-weight: 500;
+          border-bottom: 1px solid #fff;
+          width: 90%;
+          margin: 15px auto 5px auto;
+          text-align: center;
+          padding-bottom: 5px;
+        }
+        .staff_title {
+          font-size: 15px;
+        }
+        .staff_bio {
+          font-size: 15px;
+          color: #fff;
+          text-align: center;
+          max-height: 150px;
+          overflow-y: auto;
+          margin: 0;
+
+          &::-webkit-scrollbar {
+            width: 10px;
+            margin-right: 5px;
+          }
+
+          &::-webkit-scrollbar-track {
+            background: #f1f1f1;
+          }
+
+          &::-webkit-scrollbar-thumb {
+            background: var(--primary_color);
+          }
+        }
+      }
+
+      h3 {
+        color: #fff;
+        text-align: center;
+        padding-bottom: 12.5px;
+        border-bottom: 1px solid #fff;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .our_staff_shortcode_section {
+    .staff_cards_container {
+      .staff_card {
+        width: 45%;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .our_staff_shortcode_section {
+    .staff_cards_container {
+      .staff_card {
+        width: 30%;
+      }
+    }
+  }
+}

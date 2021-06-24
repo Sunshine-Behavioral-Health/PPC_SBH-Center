@@ -1,0 +1,26 @@
+.amenities_section {
+  margin: 50px 0;
+}
+
+.amenities_container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .amenities_container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.amenities_headlines {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto 25px auto;
+}
+
+.amenities_headlines h2 {
+  font-size: 48px;
+  font-weight: 300;
+}

@@ -1,0 +1,25 @@
+[accreditation_shortcode paragraph=""]
+
+[activities_shortcode headline="" subheadline="" activities_list="" image_url=""]
+
+[amenitities_carousel_shortcode headline="" subheadline=""]
+Images controlled via ACF
+
+[contact_form_cta headline="" subheadline=""]
+
+[headline_with_paragraphs_shortcode headline="" paragaph_1="" paragaph_2=""]
+
+[insurance_cost_shortcode headline_1="" paragraph_1="" headline_2="" paragraph_2=""]
+
+[insurance_verification_form_shortcode]
+
+[interjection_stripe headline="" subheadline="" have_cta="" cta_type="" background_color=""]
+“cta_type” has two options: “phone” and “insurance”.
+“have_cta” has two options: ”true” and “false”.
+“subheadline” will not show if not set
+“background_color” can be any hex code such as "#7ecfda"
+
+[location_shortcode headline="" subheadline=""]
+
+[our_staff_shortcode]
+
