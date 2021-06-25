@@ -2,7 +2,7 @@
 
 [activities_shortcode headline="" subheadline="" activities_list="" image_url=""]
 
-[amenitities_carousel_shortcode headline="" subheadline=""]
+[amenities_carousel_shortcode headline="" subheadline=""]
 Images controlled via ACF
 
 [contact_form_cta headline="" subheadline=""]

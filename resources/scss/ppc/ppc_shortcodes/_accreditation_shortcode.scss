@@ -16,8 +16,6 @@
   }
 }
 .accreditation_container {
-  max-width: 1250px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -43,7 +41,7 @@
 
 @media (min-width: 768px) {
   .accreditation_container {
-    width: 75%;
+    max-width: 1250px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;

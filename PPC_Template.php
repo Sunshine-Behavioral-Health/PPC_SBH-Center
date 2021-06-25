@@ -17,7 +17,7 @@ sbh_center()->print_styles('sbh_center-content');
 
 ?>
 
-<main id="primary" class="ppc_page_template_section">
+<main id="primary" class="ppc_page_template_main">
 	<div class="ppc_page_container">
 		<?php
 		if (have_posts()) :

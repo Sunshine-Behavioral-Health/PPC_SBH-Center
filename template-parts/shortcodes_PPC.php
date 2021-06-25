@@ -3,10 +3,10 @@
 get_template_part('template-parts/content/shortcodes/ppc/accreditation_shortcode');
 
 //activities_shortcode
-//get_template_part('template-parts/content/shortcodes/ppc/activities_shortcode');
+get_template_part('template-parts/content/shortcodes/ppc/activities_shortcode');
 
-//amenitities_carousel_shortcode
-//get_template_part('template-parts/content/shortcodes/ppc/amenitities_carousel_shortcode');
+// amenities_carousel
+get_template_part('template-parts/content/shortcodes/ppc/amenities_carousel');
 
 //contact_form_cta
 get_template_part('template-parts/content/shortcodes/ppc/contact_form_cta');
@@ -32,9 +32,6 @@ get_template_part('template-parts/content/shortcodes/ppc/our_staff_shortcode');
 //personalize_program_shortcode
 get_template_part('template-parts/content/shortcodes/ppc/personalize_program_shortcode');
 
-//testimonial_carousel_shortcode
-//get_template_part('template-parts/content/shortcodes/ppc/testimonial_carousel_shortcode');
-
 //testimonial_fixed_shortcode
 get_template_part('template-parts/content/shortcodes/ppc/testimonial_fixed_shortcode');
 
@@ -47,10 +44,8 @@ get_template_part('template-parts/content/shortcodes/ppc/two_long_buttons_cta');
 //why_center_shortcode
 get_template_part('template-parts/content/shortcodes/ppc/why_center_shortcode');
 
-//why_center_shortcode
+//three_feature_no_form_hero
 get_template_part('template-parts/content/shortcodes/ppc/heros/three_feature_no_form_hero');
 
+//contact_form_hero
 get_template_part('template-parts/content/shortcodes/ppc/heros/contact_form_hero');
-
-
-get_template_part('template-parts/content/shortcodes/ppc/heros/activities_shortcode');

@@ -18,7 +18,7 @@ function personalize_program_shortcode()
                     <li><img src="<?php echo get_template_directory_uri() . '/images/icons/checkmark_icon.png' ?>" alt="">Experiential Therapy</li>
                 </ul>
             </div>
-            <div class="personalize_program_image" style="background:transparent url(<?php echo get_template_directory_uri() . '/images/personalize.jpg' ?>) no-repeat center center /cover"> </div>
+            <img class="personalize_program_image" src="<?php echo get_field('personalize_program_shortcode-image', 'option')['url'] ?>" alt="" loading="lazy">
         </div>
     </section>
 <?php

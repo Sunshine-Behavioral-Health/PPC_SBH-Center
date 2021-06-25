@@ -134,12 +134,17 @@
   margin: 0.67em auto;
 }
 
-.ppc_page_template_section {
+.ppc_page_template_main {
   margin-top: 60px;
   .ppc_page_container section {
     margin-bottom: 25px;
+    padding: 0 15px;
     &:first-of-type {
       margin: 0;
+    }
+
+    h2 {
+      font-size: 40px;
     }
   }
 }
