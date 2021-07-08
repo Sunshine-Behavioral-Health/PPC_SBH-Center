@@ -60,7 +60,7 @@ namespace WP_Rig\WP_Rig;
 				<?php endwhile;
 				wp_reset_query(); ?>
 			</ul>
-
+<!-- 
 			<div class="footer_social_media_container">
 				<?php
 				if (have_rows('social_media', 'option')) :
@@ -75,7 +75,7 @@ namespace WP_Rig\WP_Rig;
 				?>
 
 
-			</div>
+			</div> -->
 		</div>
 
 		<div class="footer_badges_container">

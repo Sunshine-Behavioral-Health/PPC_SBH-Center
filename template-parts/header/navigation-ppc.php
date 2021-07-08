@@ -16,7 +16,7 @@ namespace WP_Rig\WP_Rig;
             <a href="#"><img src="<?php echo get_field('navigation_logo', 'option')['url']; ?>" alt=""></a>
         </div>
         <div class="navbar_cta hide_on_mobile">
-            <a target="_blank" href="tel:844-357-3909 " class="cta_left cta_box_shadows" target="_blank">(844) 477-0262</a>
+            <a target="_blank" href="tel:949-276-2886" class="invocaNumber cta_left cta_box_shadows" target="_blank">949-276-2886</a>
         </div>
     </div>
 </nav>

@@ -29,23 +29,4 @@ function location_shortcode($atts)
     return $output;
 }
 
-add_shortcode('location_shortcode', 'location_shortcode'); ?>
-
-
-<!-- 
-
-<section class="location_section">
-    <div class="location_container">
-        <div class="location_content">
-            <div class="location_content_paragraph">
-                <h2>Headline</h2>
-                <p>SUBHEALINE</p>
-            </div>
-            <img src="<?php get_field("location_shortcode-map_image", 'option')['url'] ?>" alt="">
-        </div>
-        <div class="location_image">
-            <img src="<?php get_field('location_shortcode-side_image', 'option')['url'] ?>" alt="">
-        </div>
-    </div>
-</section>
- -->
+add_shortcode('location_shortcode', 'location_shortcode');

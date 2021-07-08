@@ -1,7 +1,6 @@
 .our_staff_shortcode_section {
   .staff_cards_container {
     max-width: 1250px;
-    padding: 0 15px;
     margin: 0 auto;
     .staff_card {
       width: 100%;
@@ -10,7 +9,7 @@
       border: none;
       border-radius: 5px;
       margin-bottom: 15px;
-      max-width: 475px;
+      width: 350px;
 
       .staff_card_wrapper {
         width: 100%;
@@ -68,26 +67,6 @@
         text-align: center;
         padding-bottom: 12.5px;
         border-bottom: 1px solid #fff;
-      }
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .our_staff_shortcode_section {
-    .staff_cards_container {
-      .staff_card {
-        width: 45%;
-      }
-    }
-  }
-}
-
-@media (min-width: 1024px) {
-  .our_staff_shortcode_section {
-    .staff_cards_container {
-      .staff_card {
-        width: 30%;
       }
     }
   }

@@ -6,7 +6,7 @@
         </div>
         <div class="ppc_hero_cta_container">
             <p class="hero_247">We are available 24/7</p>
-            <a href="tel:844-477-0262 " class="hero_cta_btn cta_box_shadows">(844) 477-0262</a>
+            <a href="tel:844-477-0262 " class="invocaNumber hero_cta_btn cta_box_shadows">(844) 477-0262</a>
             <p class="hero_cta_subtext">Calls are free & confidential</p>
             <p class="hero_form_link_text">Or Complete this <a href="#verify-your-insurance" class="hero_form_link">Form to get started</a></p>
         </div>

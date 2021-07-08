@@ -356,3 +356,23 @@ function wpex_clean_shortcodes($content)
 	return $content;
 }
 add_filter('the_content', 'wpex_clean_shortcodes');
+
+
+add_role(
+	'ppc_editor', //  System name of the role.
+	__('PPC Editor'), // Display name of the role.
+	array(
+		'read'  => true,
+		'delete_posts'  => true,
+		'delete_published_posts' => true,
+		'edit_posts'   => true,
+		'publish_posts' => true,
+		'upload_files'  => true,
+		'edit_pages'  => true,
+		'edit_published_pages'  =>  true,
+		'publish_pages'  => true,
+		'delete_published_pages' => true,
+		'add_user' => false,
+		'update_themes' => false
+	)
+);

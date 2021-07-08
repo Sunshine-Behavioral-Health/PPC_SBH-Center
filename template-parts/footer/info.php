@@ -55,7 +55,7 @@ namespace WP_Rig\WP_Rig;
 			<?php $footerNonHomeFormShortcode = '[gravityform id="' . get_field('footer_non_home_form_id', 'option') . '" title="false" description="false"]';
 			echo do_shortcode($footerNonHomeFormShortcode); ?>
 
-			<div class="footer_social_media_container">
+			<!-- <div class="footer_social_media_container">
 				<?php
 				if (have_rows('social_media', 'option')) :
 					while (have_rows('social_media', 'option')) : the_row();
@@ -67,7 +67,7 @@ namespace WP_Rig\WP_Rig;
 					endwhile;
 				endif;
 				?>
-			</div>
+			</div> -->
 		</div>
 
 		<div class="footer_badges_container">
